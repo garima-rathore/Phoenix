@@ -1,0 +1,45 @@
+#!/bin/bash
+
+
+_repolink () {
+    local regex
+    regex='(https?)://github.com/.+/.+'
+    if [[ $PHOENIX_REPO == "PHOENIXBOT" ]]
+    then
+        echo "aHR0cHM6Ly9naXRodWIuY29tL2dhcmltYS1yYXRob3JlL1Byb2JhYmxlLWdhcnVkYS9hcmNoaXZlL21hc3Rlci56aXA=" | base64 -d
+    elif [[ $PHOENIX_REPO == "PHOENIXBot" ]]
+    then
+        echo "aHR0cHM6Ly9naXRodWIuY29tL2dhcmltYS1yYXRob3JlL1Byb2JhYmxlLWdhcnVkYS9hcmNoaXZlL21hc3Rlci56aXA=" | base64 -d
+    elif [[ $PHOENIX_REPO =~ $regex ]]
+    then
+        if [[ $PHOENIX_REPO_BRANCH ]]
+        then
+            echo "${PHOENIX_REPO}/archive/${PHOENIX_REPO_BRANCH}.zip"
+        else
+            echo "${PHOENIX_REPO}/archive/master.zip"
+        fi
+    else
+        echo "aHR0cHM6Ly9naXRodWIuY29tL2dhcmltYS1yYXRob3JlL1Byb2JhYmxlLWdhcnVkYS9hcmNoaXZlL21hc3Rlci56aXA=" | base64 -d
+    fi
+}
+
+
+start_bot () {
+    local zippath
+    zippath="myphoenix.zip"
+    echo "  Downloading source code ..."
+    wget -q $(_repolink) -O "$zippath"
+    echo "  Unpacking Data ..."
+    PHOENIXPATH=$(zipinfo -1 "$zippath" | grep -v "/.");
+    unzip -qq "$zippath"
+    echo "  Processing Codes..."
+    rm -rf "$zippath"
+    sleep 5
+    cd $PHOENIXPATH
+    echo "  • Starting ☠ 𝓟𝓗𝓞𝓔𝓝𝓘𝓧 𝓤𝓢𝓔𝓡𝓑𝓞𝓣 ☠ •  "
+
+    python3 ../setup/updater.py ../requirements.txt requirements.txt
+    python3 -m phoenix
+}
+
+start_bot
