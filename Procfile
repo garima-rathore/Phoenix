@@ -1,1 +1,1 @@
-worker = bash Phoenix OP
+worker = bash Phoenix 
