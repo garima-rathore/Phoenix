@@ -1,7 +1,7 @@
 {
-  "name": "☠️ρøıƨøп ʙᴏᴛ☠️",
-  "description": "☠p is one of the Best UserBot for Telegram. Known for its Smoothness, Design, Support.",
-  "logo": "https://telegra.ph/file/04cdefe5ed7732a67eaee.jpg ",
+  "name": "😈𝕻𝖍𝖔𝖊𝖓𝖎𝖝 𝕭𝖔𝖙😈",
+  "description": " 𝕻𝖍𝖔𝖊𝖓𝖎𝖝 𝕭𝖔𝖙 is one of the Best UserBot for Telegram. Known for its Smoothness, Design, Support.",
+  "logo": "https://telegra.ph/file/86718f9bb76dea02d6456.png ",
     "keywords": [
     "telegram",
     "userbot",
@@ -20,8 +20,8 @@
       "value": "ANYTHING"
     },
     "YOUR_NAME": {
-      "description": "Fill Your Telegram Name. Default Value is Hêll",
-      "value": "『ρøıƨøп』",
+      "description": "Fill Your Telegram Name. Default Value is ρнσєηιχ ",
+      "value": "『ρнσєηιχ\』",
       "required": false
     },
     "ALIVE_MSG": {
@@ -35,7 +35,7 @@
       "required": false
     },
     "ABUSE": {
-      "description": "Leave it blank if you dont want Profanity in ☠️ρøıƨøп ʙᴏᴛ☠️. Else Fill ON.",
+      "description": "Leave it blank if you dont want Profanity in 𝕻𝖍𝖔𝖊𝖓𝖎𝖝 𝕭𝖔𝖙 . Else Fill ON.",
       "value": "ON",
       "required": false
     },
@@ -45,7 +45,7 @@
       "required": false
     },
     "PM_LOG_ID": {
-      "description": "Fill your private Channel ID if you want to Log PM messages. Get channel id from @HELL_ID_BOT",
+      "description": "Fill your private Channel ID if you want to Log PM messages.",
       "value": "",
       "required": false
     },
@@ -55,7 +55,7 @@
     },
     "EMOJI_IN_HELP": {
       "description": "A emoji to display in help command",
-      "value": "🔸"
+      "value": "☠️"
     },
     "BUTTONS_IN_HELP": {
       "description": "No.of buttons to display in help menu.",
@@ -74,10 +74,10 @@
       "value": ""
     },
     "LOGGER_ID": {
-      "description": "Create a private channel. And get it's id from @HELL_ID_BOT and paste here. Value should start with -100",
+      "description": "Create a private channel. Value should start with -100",
       "value": ""
     },
-    "HELLBOT_SESSION": {
+    "PHOENIX_SESSION": {
       "description": "Get this value by using repl or termux. Refer to Repo for more info.",
       "value": ""
     },
@@ -105,12 +105,12 @@
       "value": ""
     },
     "YOUR_CHANNEL": {
-      "description": "Fill your channel username(without @) to get this displayed on your Hell Alive.",
+      "description": "Fill your channel username(without @) to get this displayed on your Phoenix Alive.",
       "value": "",
       "required": false
     },
     "YOUR_GROUP": {
-      "description": "Fill your group username(without @) to get this displayed on your Hell Alive.",
+      "description": "Fill your group username(without @) to get this displayed on your Phoenix Alive.",
       "value": "",
       "required": false
     },
