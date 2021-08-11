@@ -21,7 +21,7 @@
     },
     "YOUR_NAME": {
       "description": "Fill Your Telegram Name. Default Value is ρнσєηιχ ",
-      "value": "『ρнσєηιχ\』",
+      "value": "『ρнσєηιχ』",
       "required": false
     },
     "ALIVE_MSG": {
