@@ -113,7 +113,7 @@
 ------
 ## Credits
 
-- 💖 [Real Poison](https://github.com/garima-rathore) for [Telegram](https://t.me/me_izz_shreef)
+
 - 💖 My Team Members For Supporting Me.
 
 ------
