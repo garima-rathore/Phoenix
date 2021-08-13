@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-  <img src="https://telegra.ph/file/7c957c32596700e8a9205.jpg" alt="PHOENIX-USERBOT">
+  <img src="https://telegra.ph/file/e7c69989f2951276e4fae.jpg " alt="PHOENIX-USERBOT">
 </p>
 
 <h6 align="center">
