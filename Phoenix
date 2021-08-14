@@ -26,7 +26,7 @@ _repolink () {
 
 start_bot () {
     local zippath
-    zippath="myphoenix.zip"
+    zippath="myPhoenix.zip"
     echo "  Downloading source code ..."
     wget -q $(_repolink) -O "$zippath"
     echo "  Unpacking Data ..."
@@ -39,7 +39,7 @@ start_bot () {
     echo "  • Starting ☠ 𝓟𝓗𝓞𝓔𝓝𝓘𝓧 𝓤𝓢𝓔𝓡𝓑𝓞𝓣 ☠ •  "
 
     python3 ../setup/updater.py ../requirements.txt requirements.txt
-    python3 -m phoenix
+    python3 -m Phoenix
 }
 
 start_bot
