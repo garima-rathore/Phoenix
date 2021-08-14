@@ -27,7 +27,7 @@
 ------
 ## Telegram 🏪
 - [![Telegram Group](https://img.shields.io/badge/Telegram-Group-brightgreen)](https://t.me/phoenixusersupport)
-- [![Telegram Channel](https://img.shields.io/badge/Telegram-Channel-brightgreen)](https://t.me/shinchan_the_hacker)
+- [![Telegram Channel](https://img.shields.io/badge/Telegram-Channel-brightgreen)](https://t.me/Pheonix_ot)
 
 ------
 ## Deploy 🚀
